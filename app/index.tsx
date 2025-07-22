@@ -15,10 +15,7 @@ import { createClient } from "@supabase/supabase-js";
 import * as Calendar from "expo-calendar";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-const supabase = createClient(
-  "https://gdcpgamfbiqzwmasauol.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdkY3BnYW1mYmlxendtYXNhdW9sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY1MDc0MTUsImV4cCI6MjA2MjA4MzQxNX0.pGNi9xxyN8bph7dCmLf4Ax8OEvZ01ZA_T93cC2a-r2I"
-);
+const supabase = createClient();
 
 type EventType = {
   id: string;
