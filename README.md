@@ -1,5 +1,7 @@
 # Demo of Event Listing Screen
 
+Response for Tukutane Internship Challenge by Codex Technologies
+
 
 
 https://github.com/user-attachments/assets/f81beee2-df79-4ab0-b6c2-94770d0f5c5f
